@@ -1,0 +1,4 @@
+model,test_accuracy
+Random Chance,0.125
+GraphSAGE,0.25
+CNN Mel-Spectrogram,0.3875
