@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+torch
+torch-geometric
+transformers
+datasets
+librosa
+soundfile
+tqdm
+yt-dlp
