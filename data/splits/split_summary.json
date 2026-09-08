@@ -1,0 +1,31 @@
+{
+  "task1_musiccaps": {
+    "total_usable": 4888,
+    "train": 3910,
+    "validation": 489,
+    "test": 489,
+    "method": "Random 80/10/10 split using sklearn train_test_split",
+    "random_state": 42,
+    "shuffle": true
+  },
+  "task2_fma_small": {
+    "train": 1600,
+    "validation": 400,
+    "test": 400,
+    "method": "Official FMA training/validation/test split with balanced genre sampling"
+  },
+  "task3_magnatagatune": {
+    "train": 869,
+    "validation": 76,
+    "test": 254,
+    "method": "MagnaTagATune official folder-based split after graph preprocessing"
+  },
+  "task4_musiccaps": {
+    "total_usable_pairs": 266,
+    "train": 212,
+    "validation": 27,
+    "test": 27,
+    "method": "Reproducible random held-out split after filtering usable audio-graph-caption pairs",
+    "random_state": 42
+  }
+}
