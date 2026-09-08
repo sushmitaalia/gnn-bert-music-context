@@ -1,0 +1,33 @@
+{
+  "task1": {
+    "test_micro_f1": 0.7532,
+    "test_macro_f1": 0.6475
+  },
+  "task2": {
+    "random_chance_accuracy": 0.1250,
+    "graphsage_test_accuracy": 0.2500,
+    "cnn_test_accuracy": 0.3875
+  },
+  "task3": {
+    "bert_micro_f1": 0.596421,
+    "bert_macro_f1": 0.516907,
+    "bert_auc_pr": 0.609643,
+    "gnn_micro_f1": 0.274604,
+    "gnn_macro_f1": 0.266956,
+    "gnn_auc_pr": 0.218001,
+    "concat_micro_f1": 0.543011,
+    "concat_macro_f1": 0.465720,
+    "concat_auc_pr": 0.559546,
+    "cross_micro_f1": 0.379514,
+    "cross_macro_f1": 0.257163,
+    "cross_auc_pr": 0.336036
+  },
+  "task4": {
+    "caption_to_audio_recall_at_1": 0.0,
+    "caption_to_audio_recall_at_5": 0.2963,
+    "caption_to_audio_recall_at_10": 0.5185,
+    "audio_to_caption_recall_at_1": 0.0370,
+    "audio_to_caption_recall_at_5": 0.1481,
+    "audio_to_caption_recall_at_10": 0.4444
+  }
+}
